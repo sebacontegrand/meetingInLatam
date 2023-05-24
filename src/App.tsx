@@ -127,6 +127,8 @@ function App() {
           {selectedDate &&
             `El dia ${selectedDate} es feriado en Argentina debido a: ${motivoAr}`}
         </p>
+      ) : selectedDate ? (
+        <h1>OK to Meet!!</h1>
       ) : (
         ""
       )}
